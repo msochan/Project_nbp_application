@@ -30,8 +30,8 @@ namespace Projekt_nbp_CodeFirst.ViewModels
         public CurrencyManagerVM()
         {
                 
-            selectedDateFrom = new DateTime(2018, 4, 3);
-            selectedDateTo = new DateTime(2018, 4, 3);       
+            selectedDateFrom = new DateTime(2021, 11, 3);
+            selectedDateTo = new DateTime(2021, 12, 25);       
             chartItems = new List<Chart>();
         
             Currencies = new ObservableCollection<string>
